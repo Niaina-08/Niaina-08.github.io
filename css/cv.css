@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+}
+.portfolio {
+    font-family: cursive,serif,sans-serif;
+    font-weight: bolder;
+    color: #21243d;
+}
+.droit {
+    position: absolute;
+    right: 50px;
+}
+.recherche {
+    border-radius: 10px 10px;
+}
+/* fin style barre de navigation */
+.pic {
+    height: 250px;
+    width: 230px;
+    border-radius: 50% 50%;
+}
+.text1, p {
+    text-align: justify;
+}
+p {
+    font-weight: bolder;
+}
+
+
+
+@media only screen and (max-width:800px){
+    .icon {
+        display: none;
+    }
+}

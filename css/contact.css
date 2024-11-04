@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+}
+.portfolio {
+    font-family: cursive,serif,sans-serif;
+    font-weight: bolder;
+    color: #21243d;
+}
+.droit {
+    position: absolute;
+    right: 50px;
+}
+.recherche {
+    border-radius: 10px 10px;
+}
+/* fin style barre de navigation */
+
+h3, h4 {
+    color: aliceblue;
+}
+.redline {
+    width: 50px;
+}
+.info {
+    padding-top: 100px;
+}
+.inpt{
+    width: 350px;
+}
+textarea {
+    height: 100px;
+    width: 705px;
+    resize: none;
+}
+.bouton {
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+h6, p {
+    color: aliceblue;
+}
+.fb, .whats, .insta, .port {
+    width: 80px;
+}
+
+@media only screen and (max-width:800px){
+    .icon {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1220px) {
+    textarea, .inpt {
+        width: 100%;
+    }
+}
